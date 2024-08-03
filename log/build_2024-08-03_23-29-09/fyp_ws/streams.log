@@ -1,0 +1,31 @@
+[0.130s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[1.623s] [100%] Built target keyboard_control
+[1.623s] [100%] Built target example_diff_drive
+[1.638s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[1.704s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws
+[1.721s] -- Install configuration: ""
+[1.730s] -- Execute custom install script
+[1.731s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive
+[1.731s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control
+[1.738s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/diff_drive_example.launch.py
+[1.738s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/bridge_config.yaml
+[1.738s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/diff_drive_controller_velocity.yaml
+[1.739s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/test_diff_drive.urdf.xacro
+[1.739s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//worlds/my_world.sdf
+[1.740s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//rviz/robot_lidar.rviz
+[1.740s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws
+[1.740s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws
+[1.741s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.sh
+[1.741s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.dsv
+[1.741s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.sh
+[1.741s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.dsv
+[1.742s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.bash
+[1.742s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.sh
+[1.742s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.zsh
+[1.743s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.dsv
+[1.743s] -- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.dsv
+[1.755s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/packages/fyp_ws
+[1.755s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig.cmake
+[1.755s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig-version.cmake
+[1.755s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.xml
+[1.758s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws

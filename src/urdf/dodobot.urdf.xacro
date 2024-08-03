@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<robot name="dodobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <material name="orange">
+    <color rgba="0.8 0.4 0.0 1.0"/>
+  </material>
+
+  <material name="black">
+    <color rgba="0.2 0.2 0.2 1.0"/>
+  </material>
+
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <mass value="5"/>
+      <inertia ixx="0.0395" ixy="0" ixz="0" iyy="0.106" iyz="0" izz="0.145"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.3 0.01"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.6 0.3 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Gray</material>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+  </gazebo>
+
+  <!-- Compartment 1 -->
+  <link name="compartment_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.0275" ixy="0" ixz="0" iyy="0.0275" iyz="0" izz="0.015"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.30 0.30"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.30 0.30"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="compartment_1">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <joint name="base_to_compartment_1" type="fixed">
+    <parent link="base_link"/>
+    <child link="compartment_1"/>
+    <origin xyz="0.10 0 0.155" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Compartment 2 -->
+  <link name="compartment_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia ixx="0.0108" ixy="0" ixz="0" iyy="0.0083" iyz="0" izz="0.0058"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.20 0.30 0.30"/>
+      </geometry>
+      <material name="orange"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.20 0.30 0.30"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="compartment_2">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <joint name="base_to_compartment_2" type="fixed">
+    <parent link="base_link"/>
+    <child link="compartment_2"/>
+    <origin xyz="-0.20 0 0.155" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Compartment 3 -->
+  <link name="compartment_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.5"/>
+      <inertia ixx="0.0234375" ixy="0" ixz="0" iyy="0.0234375" iyz="0" izz="0.015625"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.25 0.25 0.30"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.25 0.25 0.30"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="compartment_3">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <joint name="compartment_1_to_compartment_3" type="fixed">
+    <parent link="compartment_1"/>
+    <child link="compartment_3"/>
+    <origin xyz="0 0 0.30" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Left Compartment 1 Wheel -->
+  <link name="left_compartment_1_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.000703" ixy="0" ixz="0" iyy="0.000703" iyz="0" izz="0.001406"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.075" length="0.015"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.075" length="0.015"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="left_compartment_1_wheel">
+    <material>Gazebo/Gray</material>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <joint name="base_to_left_compartment_1_wheel" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_compartment_1_wheel"/>
+    <origin xyz="0.20 0.1575 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Right Compartment 1 Wheel -->
+  <link name="right_compartment_1_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.000703" ixy="0" ixz="0" iyy="0.000703" iyz="0" izz="0.001406"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.075" length="0.015"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.075" length="0.015"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="right_compartment_1_wheel">
+    <material>Gazebo/Gray</material>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <joint name="base_to_right_compartment_1_wheel" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_compartment_1_wheel"/>
+    <origin xyz="0.20 -0.1575 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- Left Compartment 2 Wheel (Caster) -->
+  <link name="left_compartment_2_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia ixx="0.0000281" ixy="0" ixz="0" iyy="0.0000281" iyz="0" izz="0.0000281"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="left_compartment_2_wheel">
+    <material>Gazebo/Gray</material>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+  </gazebo>
+
+  <joint name="base_to_left_compartment_2_wheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="left_compartment_2_wheel"/>
+    <origin xyz="-0.20 0.14 -0.0375" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Right Compartment 2 Wheel (Caster) -->
+  <link name="right_compartment_2_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia ixx="0.0000281" ixy="0" ixz="0" iyy="0.0000281" iyz="0" izz="0.0000281"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="right_compartment_2_wheel">
+    <material>Gazebo/Gray</material>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+  </gazebo>
+
+  <joint name="base_to_right_compartment_2_wheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="right_compartment_2_wheel"/>
+    <origin xyz="-0.20 -0.14 -0.0375" rpy="0 0 0"/>
+  </joint>
+
+  <!-- LiDAR -->
+  <link name="lidar_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" iyy="0.000166667" izz="0.000166667" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+  </link>
+
+  <joint name="compartment_3_to_lidar" type="fixed">
+    <parent link="compartment_3"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.20" rpy="0 0 0"/>
+  </joint>
+
+  <gazebo reference="lidar_link">
+    <sensor name="gpu_lidar" type="gpu_lidar">
+      <topic>lidar</topic>
+      <update_rate>10</update_rate>
+      <lidar>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.1</min>
+          <max>10.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </lidar>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+    </sensor>
+  </gazebo>
+
+  <!-- Wide Angle Camera -->
+  <link name="wide_angle_camera_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" iyy="0.000166667" izz="0.000166667" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="compartment_1_to_camera" type="fixed">
+    <parent link="compartment_1"/>
+    <child link="wide_angle_camera_link"/>
+    <origin xyz="0.20 0 0.15" rpy="0 0 0"/>
+  </joint>
+
+  <gazebo reference="wide_angle_camera_link">
+    <sensor name="wide_angle_camera" type="camera">
+      <topic>wide_angle_camera</topic>
+      <update_rate>30.0</update_rate>
+      <camera name="wide_angle">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>600</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+      </camera>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+    </sensor>
+  </gazebo>
+
+  <!-- Rear Wide Angle Camera -->
+  <link name="rear_wide_angle_camera_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" iyy="0.000166667" izz="0.000166667" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="compartment_2_to_rear_camera" type="fixed">
+    <parent link="compartment_2"/>
+    <child link="rear_wide_angle_camera_link"/>
+    <origin xyz="-0.10 0 0.15" rpy="0 0 3.14159"/>
+  </joint>
+
+  <gazebo reference="rear_wide_angle_camera_link">
+    <sensor name="rear_wide_angle_camera" type="camera">
+      <topic>rear_wide_angle_camera</topic>
+      <update_rate>30.0</update_rate>
+      <camera name="rear_wide_angle">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>600</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+      </camera>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+    </sensor>
+  </gazebo>
+
+  <!-- ROS2 Control -->
+  <ros2_control name="GazeboSimSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="base_to_left_compartment_1_wheel">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="base_to_right_compartment_1_wheel">
+      <command_interface name="velocity">
+        <param name="min">-10</param>
+        <param name="max">10</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- Gazebo plugin -->
+  <gazebo>
+    <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find fyp_ws)/config/controller.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>
+

@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (fyp_ws) JobQueued: {'identifier': 'fyp_ws', 'dependencies': OrderedDict()}
+[0.000301] (fyp_ws) JobStarted: {'identifier': 'fyp_ws'}
+[0.098263] (-) TimerEvent: {}
+[0.198545] (-) TimerEvent: {}
+[0.275140] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'cmake'}
+[0.276683] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'build'}
+[0.276727] (fyp_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gregory2/fyp_ws/build/fyp_ws', '--', '-j4', '-l4'], 'cwd': '/home/gregory2/fyp_ws/build/fyp_ws', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gregory2', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gregory2', 'OLDPWD': '/home/gregory2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2076', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/gregory2/fyp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gregory2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gregory2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gregory2-Aspire-E5-575:@/tmp/.ICE-unix/2033,unix/gregory2-Aspire-E5-575:/tmp/.ICE-unix/2033', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2db8451a_dc2e_4471_96ab_df019a6c3fc0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gregory2/fyp_ws/build/fyp_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gregory2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.298684] (-) TimerEvent: {}
+[0.398942] (-) TimerEvent: {}
+[0.499322] (-) TimerEvent: {}
+[0.599719] (-) TimerEvent: {}
+[0.700081] (-) TimerEvent: {}
+[0.800351] (-) TimerEvent: {}
+[0.900721] (-) TimerEvent: {}
+[1.001093] (-) TimerEvent: {}
+[1.101504] (-) TimerEvent: {}
+[1.201798] (-) TimerEvent: {}
+[1.302120] (-) TimerEvent: {}
+[1.402416] (-) TimerEvent: {}
+[1.502910] (-) TimerEvent: {}
+[1.603223] (-) TimerEvent: {}
+[1.686307] (fyp_ws) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/examples/keyboard_control.cpp.o\x1b[0m\n'}
+[1.686942] (fyp_ws) StdoutLine: {'line': b'[ 75%] Built target example_diff_drive\n'}
+[1.703378] (-) TimerEvent: {}
+[1.803691] (-) TimerEvent: {}
+[1.904066] (-) TimerEvent: {}
+[2.004327] (-) TimerEvent: {}
+[2.104676] (-) TimerEvent: {}
+[2.204908] (-) TimerEvent: {}
+[2.305246] (-) TimerEvent: {}
+[2.405585] (-) TimerEvent: {}
+[2.505978] (-) TimerEvent: {}
+[2.606380] (-) TimerEvent: {}
+[2.706710] (-) TimerEvent: {}
+[2.807070] (-) TimerEvent: {}
+[2.907371] (-) TimerEvent: {}
+[3.007705] (-) TimerEvent: {}
+[3.108006] (-) TimerEvent: {}
+[3.208322] (-) TimerEvent: {}
+[3.308646] (-) TimerEvent: {}
+[3.408900] (-) TimerEvent: {}
+[3.509233] (-) TimerEvent: {}
+[3.609530] (-) TimerEvent: {}
+[3.709777] (-) TimerEvent: {}
+[3.810094] (-) TimerEvent: {}
+[3.910454] (-) TimerEvent: {}
+[4.010745] (-) TimerEvent: {}
+[4.111041] (-) TimerEvent: {}
+[4.211349] (-) TimerEvent: {}
+[4.311659] (-) TimerEvent: {}
+[4.411900] (-) TimerEvent: {}
+[4.512203] (-) TimerEvent: {}
+[4.612469] (-) TimerEvent: {}
+[4.712691] (-) TimerEvent: {}
+[4.813078] (-) TimerEvent: {}
+[4.913383] (-) TimerEvent: {}
+[5.013711] (-) TimerEvent: {}
+[5.114035] (-) TimerEvent: {}
+[5.214390] (-) TimerEvent: {}
+[5.314686] (-) TimerEvent: {}
+[5.415087] (-) TimerEvent: {}
+[5.515389] (-) TimerEvent: {}
+[5.615633] (-) TimerEvent: {}
+[5.715983] (-) TimerEvent: {}
+[5.816386] (-) TimerEvent: {}
+[5.916790] (-) TimerEvent: {}
+[6.017139] (-) TimerEvent: {}
+[6.117416] (-) TimerEvent: {}
+[6.217645] (-) TimerEvent: {}
+[6.317948] (-) TimerEvent: {}
+[6.418291] (-) TimerEvent: {}
+[6.518567] (-) TimerEvent: {}
+[6.618896] (-) TimerEvent: {}
+[6.719215] (-) TimerEvent: {}
+[6.819593] (-) TimerEvent: {}
+[6.919851] (-) TimerEvent: {}
+[7.020171] (-) TimerEvent: {}
+[7.120472] (-) TimerEvent: {}
+[7.220788] (-) TimerEvent: {}
+[7.321089] (-) TimerEvent: {}
+[7.421415] (-) TimerEvent: {}
+[7.521741] (-) TimerEvent: {}
+[7.622049] (-) TimerEvent: {}
+[7.722354] (-) TimerEvent: {}
+[7.822642] (-) TimerEvent: {}
+[7.922929] (-) TimerEvent: {}
+[8.023217] (-) TimerEvent: {}
+[8.123513] (-) TimerEvent: {}
+[8.223841] (-) TimerEvent: {}
+[8.324127] (-) TimerEvent: {}
+[8.424435] (-) TimerEvent: {}
+[8.524743] (-) TimerEvent: {}
+[8.625070] (-) TimerEvent: {}
+[8.725365] (-) TimerEvent: {}
+[8.825642] (-) TimerEvent: {}
+[8.925933] (-) TimerEvent: {}
+[9.026249] (-) TimerEvent: {}
+[9.126544] (-) TimerEvent: {}
+[9.226846] (-) TimerEvent: {}
+[9.327122] (-) TimerEvent: {}
+[9.427442] (-) TimerEvent: {}
+[9.527757] (-) TimerEvent: {}
+[9.628054] (-) TimerEvent: {}
+[9.714325] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kchar KeyboardControl::\x1b[01;32m\x1b[Kgetch\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.714629] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_oflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.714822] (fyp_ws) StderrLine: {'line': b'   20 |         struct termios old = {0\x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[9.714992] (fyp_ws) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.715160] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_cflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.715333] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_lflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.715507] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.715693] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_cc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.715873] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_ispeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.716032] (fyp_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:20:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Ktermios::c_ospeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.728297] (-) TimerEvent: {}
+[9.828797] (-) TimerEvent: {}
+[9.929096] (-) TimerEvent: {}
+[10.029530] (-) TimerEvent: {}
+[10.129804] (-) TimerEvent: {}
+[10.230096] (-) TimerEvent: {}
+[10.330422] (-) TimerEvent: {}
+[10.430753] (-) TimerEvent: {}
+[10.531056] (-) TimerEvent: {}
+[10.631336] (-) TimerEvent: {}
+[10.731643] (-) TimerEvent: {}
+[10.831925] (-) TimerEvent: {}
+[10.932212] (-) TimerEvent: {}
+[11.032493] (-) TimerEvent: {}
+[11.132893] (-) TimerEvent: {}
+[11.233167] (-) TimerEvent: {}
+[11.333465] (-) TimerEvent: {}
+[11.433750] (-) TimerEvent: {}
+[11.534094] (-) TimerEvent: {}
+[11.634487] (-) TimerEvent: {}
+[11.734827] (-) TimerEvent: {}
+[11.835151] (-) TimerEvent: {}
+[11.935430] (-) TimerEvent: {}
+[12.035660] (-) TimerEvent: {}
+[12.135953] (-) TimerEvent: {}
+[12.236233] (-) TimerEvent: {}
+[12.336549] (-) TimerEvent: {}
+[12.436853] (-) TimerEvent: {}
+[12.537109] (-) TimerEvent: {}
+[12.637358] (-) TimerEvent: {}
+[12.737651] (-) TimerEvent: {}
+[12.837921] (-) TimerEvent: {}
+[12.938188] (-) TimerEvent: {}
+[13.038459] (-) TimerEvent: {}
+[13.138729] (-) TimerEvent: {}
+[13.239015] (-) TimerEvent: {}
+[13.339295] (-) TimerEvent: {}
+[13.398499] (fyp_ws) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable keyboard_control\x1b[0m\n'}
+[13.439451] (-) TimerEvent: {}
+[13.539753] (-) TimerEvent: {}
+[13.640052] (-) TimerEvent: {}
+[13.740331] (-) TimerEvent: {}
+[13.840642] (-) TimerEvent: {}
+[13.940927] (-) TimerEvent: {}
+[14.041223] (-) TimerEvent: {}
+[14.141525] (-) TimerEvent: {}
+[14.241777] (-) TimerEvent: {}
+[14.316276] (fyp_ws) StdoutLine: {'line': b'[100%] Built target keyboard_control\n'}
+[14.330799] (fyp_ws) CommandEnded: {'returncode': 0}
+[14.341882] (-) TimerEvent: {}
+[14.369738] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'install'}
+[14.402344] (fyp_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gregory2/fyp_ws/build/fyp_ws'], 'cwd': '/home/gregory2/fyp_ws/build/fyp_ws', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gregory2', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gregory2', 'OLDPWD': '/home/gregory2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2076', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/gregory2/fyp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gregory2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gregory2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gregory2-Aspire-E5-575:@/tmp/.ICE-unix/2033,unix/gregory2-Aspire-E5-575:/tmp/.ICE-unix/2033', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2db8451a_dc2e_4471_96ab_df019a6c3fc0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gregory2/fyp_ws/build/fyp_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gregory2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.442033] (-) TimerEvent: {}
+[14.453197] (fyp_ws) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.454849] (fyp_ws) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.455325] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive\n'}
+[14.455615] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control\n'}
+[14.466399] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/diff_drive_example.launch.py\n'}
+[14.466992] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/diff_drive_controller_velocity.yaml\n'}
+[14.467392] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/test_diff_drive.xacro.urdf\n'}
+[14.467729] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws\n'}
+[14.468045] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws\n'}
+[14.468349] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.sh\n'}
+[14.468632] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.dsv\n'}
+[14.468978] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.sh\n'}
+[14.469298] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.dsv\n'}
+[14.469633] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.bash\n'}
+[14.469949] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.sh\n'}
+[14.470202] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.zsh\n'}
+[14.470520] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.dsv\n'}
+[14.470755] (fyp_ws) StdoutLine: {'line': b'-- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.dsv\n'}
+[14.482713] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/packages/fyp_ws\n'}
+[14.483012] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig.cmake\n'}
+[14.483211] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig-version.cmake\n'}
+[14.483372] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.xml\n'}
+[14.485479] (fyp_ws) CommandEnded: {'returncode': 0}
+[14.542194] (-) TimerEvent: {}
+[14.642453] (-) TimerEvent: {}
+[14.673088] (fyp_ws) JobEnded: {'identifier': 'fyp_ws', 'rc': 0}
+[14.673921] (-) EventReactorShutdown: {}

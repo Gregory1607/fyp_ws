@@ -1,0 +1,2 @@
+Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4

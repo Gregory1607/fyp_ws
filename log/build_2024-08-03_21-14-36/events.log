@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (fyp_ws) JobQueued: {'identifier': 'fyp_ws', 'dependencies': OrderedDict()}
+[0.000825] (fyp_ws) JobStarted: {'identifier': 'fyp_ws'}
+[0.099651] (-) TimerEvent: {}
+[0.159203] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'cmake'}
+[0.189023] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'build'}
+[0.189908] (fyp_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gregory2/fyp_ws/build/fyp_ws', '--', '-j4', '-l4'], 'cwd': '/home/gregory2/fyp_ws/build/fyp_ws', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gregory2', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gregory2', 'OLDPWD': '/home/gregory2/fyp_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/gregory2/fyp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gregory2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gregory2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/greg:@/tmp/.ICE-unix/2033,unix/greg:/tmp/.ICE-unix/2033', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/093fd82f_53c1_4a7c_b660_2d988d4d3112', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gregory2/fyp_ws/build/fyp_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gregory2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.199810] (-) TimerEvent: {}
+[0.300112] (-) TimerEvent: {}
+[0.400548] (-) TimerEvent: {}
+[0.500826] (-) TimerEvent: {}
+[0.601205] (-) TimerEvent: {}
+[0.701508] (-) TimerEvent: {}
+[0.801899] (-) TimerEvent: {}
+[0.902177] (-) TimerEvent: {}
+[1.002507] (-) TimerEvent: {}
+[1.102745] (-) TimerEvent: {}
+[1.203038] (-) TimerEvent: {}
+[1.303396] (-) TimerEvent: {}
+[1.403800] (-) TimerEvent: {}
+[1.504183] (-) TimerEvent: {}
+[1.604613] (-) TimerEvent: {}
+[1.704915] (-) TimerEvent: {}
+[1.747621] (fyp_ws) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.805079] (-) TimerEvent: {}
+[1.905356] (-) TimerEvent: {}
+[2.005617] (-) TimerEvent: {}
+[2.105920] (-) TimerEvent: {}
+[2.206247] (-) TimerEvent: {}
+[2.306545] (-) TimerEvent: {}
+[2.374524] (fyp_ws) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.406659] (-) TimerEvent: {}
+[2.507001] (-) TimerEvent: {}
+[2.537826] (fyp_ws) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.607122] (-) TimerEvent: {}
+[2.707468] (-) TimerEvent: {}
+[2.807773] (-) TimerEvent: {}
+[2.826863] (fyp_ws) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.900932] (fyp_ws) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.907915] (-) TimerEvent: {}
+[2.977819] (fyp_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.008092] (-) TimerEvent: {}
+[3.009152] (fyp_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.108191] (-) TimerEvent: {}
+[3.208527] (-) TimerEvent: {}
+[3.308818] (-) TimerEvent: {}
+[3.326936] (fyp_ws) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.345740] (fyp_ws) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.408987] (-) TimerEvent: {}
+[3.509229] (-) TimerEvent: {}
+[3.609517] (-) TimerEvent: {}
+[3.709825] (-) TimerEvent: {}
+[3.772687] (fyp_ws) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.809956] (-) TimerEvent: {}
+[3.910503] (-) TimerEvent: {}
+[4.011245] (-) TimerEvent: {}
+[4.047554] (fyp_ws) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[4.084771] (fyp_ws) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[4.111358] (-) TimerEvent: {}
+[4.125752] (fyp_ws) StdoutLine: {'line': b'-- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[4.211477] (-) TimerEvent: {}
+[4.311784] (-) TimerEvent: {}
+[4.397062] (fyp_ws) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[4.411947] (-) TimerEvent: {}
+[4.446346] (fyp_ws) StdoutLine: {'line': b'-- Found ros_gz_sim: 1.0.2 (/opt/ros/jazzy/share/ros_gz_sim/cmake)\n'}
+[4.458938] (fyp_ws) StdoutLine: {'line': b'-- Found ros_gz_bridge: 1.0.2 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)\n'}
+[4.512093] (-) TimerEvent: {}
+[4.612341] (-) TimerEvent: {}
+[4.668187] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[4.712505] (-) TimerEvent: {}
+[4.747286] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[4.812731] (-) TimerEvent: {}
+[4.913734] (-) TimerEvent: {}
+[5.014113] (-) TimerEvent: {}
+[5.114411] (-) TimerEvent: {}
+[5.214687] (-) TimerEvent: {}
+[5.308838] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[5.309310] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[5.314848] (-) TimerEvent: {}
+[5.333268] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.0\n'}
+[5.333601] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[5.334147] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[5.356344] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[5.415069] (-) TimerEvent: {}
+[5.515331] (-) TimerEvent: {}
+[5.517753] (fyp_ws) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[5.615469] (-) TimerEvent: {}
+[5.715764] (-) TimerEvent: {}
+[5.816099] (-) TimerEvent: {}
+[5.822691] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[5.823043] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[5.876057] (fyp_ws) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.881958] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.916332] (-) TimerEvent: {}
+[5.942369] (fyp_ws) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[6.016571] (-) TimerEvent: {}
+[6.088416] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[6.116704] (-) TimerEvent: {}
+[6.126616] (fyp_ws) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[6.168958] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[6.169320] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[6.169550] (fyp_ws) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[6.196789] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[6.197224] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[6.198607] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[6.216814] (-) TimerEvent: {}
+[6.317170] (-) TimerEvent: {}
+[6.417499] (-) TimerEvent: {}
+[6.517792] (-) TimerEvent: {}
+[6.594581] (fyp_ws) StdoutLine: {'line': b'-- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)\n'}
+[6.618031] (-) TimerEvent: {}
+[6.645414] (fyp_ws) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.718136] (-) TimerEvent: {}
+[6.818413] (-) TimerEvent: {}
+[6.918739] (-) TimerEvent: {}
+[6.979712] (fyp_ws) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.018902] (-) TimerEvent: {}
+[7.119215] (-) TimerEvent: {}
+[7.212512] (fyp_ws) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.213019] (fyp_ws) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/gregory2/fyp_ws/include\n'}
+[7.213213] (fyp_ws) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.219317] (-) TimerEvent: {}
+[7.253895] (fyp_ws) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.254160] (fyp_ws) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.287353] (fyp_ws) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.287631] (fyp_ws) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.311077] (fyp_ws) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.319420] (-) TimerEvent: {}
+[7.321750] (fyp_ws) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.364473] (fyp_ws) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.364657] (fyp_ws) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.390145] (fyp_ws) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.419573] (-) TimerEvent: {}
+[7.436611] (fyp_ws) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[7.519734] (-) TimerEvent: {}
+[7.619998] (-) TimerEvent: {}
+[7.720239] (-) TimerEvent: {}
+[7.751618] (fyp_ws) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[7.754652] (fyp_ws) StdoutLine: {'line': b'-- Build files have been written to: /home/gregory2/fyp_ws/build/fyp_ws\n'}
+[7.820396] (-) TimerEvent: {}
+[7.920628] (-) TimerEvent: {}
+[8.021022] (-) TimerEvent: {}
+[8.121243] (-) TimerEvent: {}
+[8.221555] (-) TimerEvent: {}
+[8.236905] (fyp_ws) StdoutLine: {'line': b'[100%] Built target example_diff_drive\n'}
+[8.237212] (fyp_ws) StdoutLine: {'line': b'[100%] Built target keyboard_control\n'}
+[8.251772] (fyp_ws) CommandEnded: {'returncode': 0}
+[8.288000] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'install'}
+[8.300086] (fyp_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gregory2/fyp_ws/build/fyp_ws'], 'cwd': '/home/gregory2/fyp_ws/build/fyp_ws', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gregory2', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gregory2', 'OLDPWD': '/home/gregory2/fyp_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/gregory2/fyp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gregory2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gregory2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/greg:@/tmp/.ICE-unix/2033,unix/greg:/tmp/.ICE-unix/2033', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/093fd82f_53c1_4a7c_b660_2d988d4d3112', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gregory2/fyp_ws/build/fyp_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gregory2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.311395] (fyp_ws) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.311891] (fyp_ws) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.312379] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive\n'}
+[8.312568] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control\n'}
+[8.312957] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/diff_drive_example.launch.py\n'}
+[8.313420] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/bridge_config.yaml\n'}
+[8.313643] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/diff_drive_controller_velocity.yaml\n'}
+[8.313786] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/test_diff_drive.urdf.xacro\n'}
+[8.314013] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//worlds/my_world.sdf\n'}
+[8.314297] (fyp_ws) StdoutLine: {'line': b'-- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//rviz/robot_lidar.rviz\n'}
+[8.321658] (-) TimerEvent: {}
+[8.330277] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws\n'}
+[8.330490] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws\n'}
+[8.330660] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.sh\n'}
+[8.330928] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.dsv\n'}
+[8.331223] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.sh\n'}
+[8.331380] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.dsv\n'}
+[8.331591] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.bash\n'}
+[8.331851] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.sh\n'}
+[8.332174] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.zsh\n'}
+[8.332396] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.dsv\n'}
+[8.332674] (fyp_ws) StdoutLine: {'line': b'-- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.dsv\n'}
+[8.344709] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/packages/fyp_ws\n'}
+[8.345012] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig.cmake\n'}
+[8.345291] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig-version.cmake\n'}
+[8.345525] (fyp_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.xml\n'}
+[8.347830] (fyp_ws) CommandEnded: {'returncode': 0}
+[8.421814] (-) TimerEvent: {}
+[8.522059] (-) TimerEvent: {}
+[8.553534] (fyp_ws) JobEnded: {'identifier': 'fyp_ws', 'rc': 0}
+[8.554351] (-) EventReactorShutdown: {}

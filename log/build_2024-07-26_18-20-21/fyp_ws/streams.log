@@ -1,0 +1,51 @@
+[0.171s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[1.890s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.615s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.958s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.033s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.447s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.477s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.817s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.079s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.139s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.301s] -- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[4.595s] -- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[4.735s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.046s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.180s] -- Configured cppcheck include dirs: /home/gregory2/fyp_ws/include
+[5.180s] -- Configured cppcheck exclude dirs and/or files: 
+[5.227s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.227s] -- Configured cpplint exclude dirs and/or files: 
+[5.248s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.248s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.254s] -- Added test 'lint_cmake' to check CMake code style
+[5.275s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.293s] -- Added test 'uncrustify' to check C / C++ code style
+[5.293s] -- Configured uncrustify additional arguments: 
+[5.311s] -- Added test 'xmllint' to check XML markup files
+[5.377s] -- Configuring done (3.8s)
+[5.598s] -- Generating done (0.1s)
+[5.601s] -- Build files have been written to: /home/gregory2/fyp_ws/build/fyp_ws
+[5.666s] [ 25%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/examples/keyboard_control.cpp.o[0m
+[6.737s] [ 75%] Built target example_diff_drive
+[23.744s] [100%] [32m[1mLinking CXX executable keyboard_control[0m
+[25.318s] [100%] Built target keyboard_control
+[25.365s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[25.420s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws
+[25.430s] -- Install configuration: ""
+[25.430s] -- Execute custom install script
+[25.431s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive
+[25.431s] -- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control
+[25.443s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[25.443s]   ament_cmake_symlink_install_directory() can't find
+[25.443s]   '/home/gregory2/fyp_ws/launch'
+[25.443s] Call Stack (most recent call first):
+[25.443s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[25.443s]   cmake_install.cmake:46 (include)
+[25.444s] 
+[25.444s] [0m
+[25.445s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws

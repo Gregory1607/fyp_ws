@@ -1,0 +1,36 @@
+[ 50%] Built target example_diff_drive
+[ 75%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/examples/keyboard_control.cpp.o[0m
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:[m[K In member function ‘[01m[Kchar KeyboardControl::[01;32m[Kgetch[m[K()[m[K’:
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_oflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   21 |         struct termios old = {0[01;35m[K}[m[K;
+      |                                [01;35m[K^[m[K
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_lflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_line[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ispeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ospeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[100%] [32m[1mLinking CXX executable keyboard_control[0m
+[100%] Built target keyboard_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/diff_drive_example.launch.py
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/diff_drive_controller_velocity.yaml
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/test_diff_drive.xacro.urdf
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.sh
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.dsv
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.bash
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.sh
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.zsh
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.dsv
+-- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.dsv
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/packages/fyp_ws
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig.cmake
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig-version.cmake
+-- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.xml

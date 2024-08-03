@@ -1,0 +1,35 @@
+[0.020s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[0.053s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.366s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.414s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.425s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.715s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.733s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.755s] -- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.910s] -- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.940s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.940s]   By not providing "Findgz_sensors.cmake" in CMAKE_MODULE_PATH this project
+[0.940s]   has asked CMake to find a package configuration file provided by
+[0.940s]   "gz_sensors", but CMake did not find one.
+[0.940s] 
+[0.940s]   Could not find a package configuration file provided by "gz_sensors" with
+[0.940s]   any of the following names:
+[0.940s] 
+[0.940s]     gz_sensorsConfig.cmake
+[0.940s]     gz_sensors-config.cmake
+[0.940s] 
+[0.940s]   Add the installation prefix of "gz_sensors" to CMAKE_PREFIX_PATH or set
+[0.941s]   "gz_sensors_DIR" to a directory containing one of the above files.  If
+[0.941s]   "gz_sensors" provides a separate development package or SDK, be sure it has
+[0.941s]   been installed.
+[0.941s] 
+[0.941s] [0m
+[0.941s] -- Configuring incomplete, errors occurred!
+[0.948s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.951s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4

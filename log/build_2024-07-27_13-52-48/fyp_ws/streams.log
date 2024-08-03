@@ -1,0 +1,40 @@
+[0.304s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[1.759s] [ 50%] Built target example_diff_drive
+[1.952s] [ 75%] [32mBuilding CXX object CMakeFiles/keyboard_control.dir/src/examples/keyboard_control.cpp.o[0m
+[10.120s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:[m[K In member function ‘[01m[Kchar KeyboardControl::[01;32m[Kgetch[m[K()[m[K’:
+[10.120s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_oflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.120s]    21 |         struct termios old = {0[01;35m[K}[m[K;
+[10.120s]       |                                [01;35m[K^[m[K
+[10.120s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.121s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_lflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.121s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_line[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.121s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_cc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.121s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ispeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.121s] [01m[K/home/gregory2/fyp_ws/src/examples/keyboard_control.cpp:21:32:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ktermios::c_ospeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[13.486s] [100%] [32m[1mLinking CXX executable keyboard_control[0m
+[14.234s] [100%] Built target keyboard_control
+[14.251s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[14.312s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws
+[14.341s] -- Install configuration: ""
+[14.384s] -- Execute custom install script
+[14.397s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive
+[14.397s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control
+[14.400s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/diff_drive_example.launch.py
+[14.400s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/diff_drive_controller_velocity.yaml
+[14.401s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/test_diff_drive.xacro.urdf
+[14.401s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws
+[14.436s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws
+[14.436s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.sh
+[14.437s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/ament_prefix_path.dsv
+[14.437s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.sh
+[14.437s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/environment/path.dsv
+[14.437s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.bash
+[14.437s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.sh
+[14.438s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.zsh
+[14.438s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/local_setup.dsv
+[14.438s] -- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.dsv
+[14.471s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/packages/fyp_ws
+[14.471s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig.cmake
+[14.472s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/cmake/fyp_wsConfig-version.cmake
+[14.472s] -- Up-to-date symlink: /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws/package.xml
+[14.474s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws

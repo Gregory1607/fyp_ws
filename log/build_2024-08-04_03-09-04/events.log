@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (fyp_ws) JobQueued: {'identifier': 'fyp_ws', 'dependencies': OrderedDict()}
+[0.000370] (fyp_ws) JobStarted: {'identifier': 'fyp_ws'}
+[0.015070] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'cmake'}
+[0.015912] (fyp_ws) JobProgress: {'identifier': 'fyp_ws', 'progress': 'build'}
+[0.016662] (fyp_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gregory2/fyp_ws/build/fyp_ws', '--', '-j4', '-l4'], 'cwd': '/home/gregory2/fyp_ws/build/fyp_ws', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gregory2', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gregory2', 'OLDPWD': '/home/gregory2/fyp_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/gregory2/fyp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gregory2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gregory2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/greg:@/tmp/.ICE-unix/2033,unix/greg:/tmp/.ICE-unix/2033', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/093fd82f_53c1_4a7c_b660_2d988d4d3112', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gregory2/fyp_ws/build/fyp_ws', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gregory2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/gregory2/fyp_ws/install/fyp_ws:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.054228] (fyp_ws) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099158] (-) TimerEvent: {}
+[0.199487] (-) TimerEvent: {}
+[0.299739] (-) TimerEvent: {}
+[0.344191] (fyp_ws) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.353932] (fyp_ws) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.388824] (fyp_ws) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.399836] (-) TimerEvent: {}
+[0.400583] (fyp_ws) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.417785] (fyp_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.438858] (fyp_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499933] (-) TimerEvent: {}
+[0.521770] (fyp_ws) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.523565] (fyp_ws) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600047] (-) TimerEvent: {}
+[0.608225] (fyp_ws) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.696794] (fyp_ws) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.700129] (-) TimerEvent: {}
+[0.717892] (fyp_ws) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.737353] (fyp_ws) StdoutLine: {'line': b'-- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[0.800235] (-) TimerEvent: {}
+[0.894398] (fyp_ws) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.900342] (-) TimerEvent: {}
+[0.910158] (fyp_ws) StdoutLine: {'line': b'-- Found ros_gz_sim: 1.0.2 (/opt/ros/jazzy/share/ros_gz_sim/cmake)\n'}
+[0.912355] (fyp_ws) StdoutLine: {'line': b'-- Found ros_gz_bridge: 1.0.2 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)\n'}
+[0.957407] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[0.963549] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[0.989418] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.989730] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.990876] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.0\n'}
+[0.991141] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.991671] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.998432] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.000428] (-) TimerEvent: {}
+[1.020569] (fyp_ws) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[1.100534] (-) TimerEvent: {}
+[1.200809] (-) TimerEvent: {}
+[1.236064] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[1.236342] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.280028] (fyp_ws) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.285819] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.300908] (-) TimerEvent: {}
+[1.307981] (fyp_ws) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[1.366763] (fyp_ws) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.385741] (fyp_ws) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[1.401009] (-) TimerEvent: {}
+[1.431954] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.432252] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.432515] (fyp_ws) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.433133] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[1.433484] (fyp_ws) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.434558] (fyp_ws) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.501135] (-) TimerEvent: {}
+[1.601385] (-) TimerEvent: {}
+[1.638917] (fyp_ws) StdoutLine: {'line': b'-- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)\n'}
+[1.641768] (fyp_ws) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.701505] (-) TimerEvent: {}
+[1.771737] (fyp_ws) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.801639] (-) TimerEvent: {}
+[1.815730] (fyp_ws) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.816063] (fyp_ws) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/gregory2/fyp_ws/include\n'}
+[1.816190] (fyp_ws) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.857214] (fyp_ws) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.857402] (fyp_ws) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.862773] (fyp_ws) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.862939] (fyp_ws) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.873279] (fyp_ws) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.878743] (fyp_ws) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.901763] (-) TimerEvent: {}
+[1.924941] (fyp_ws) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.925195] (fyp_ws) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.930725] (fyp_ws) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.932047] (fyp_ws) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.937745] (fyp_ws) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[1.937941] (fyp_ws) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.938028] (fyp_ws) StderrLine: {'line': b'\n'}
+[1.938106] (fyp_ws) StderrLine: {'line': b'    examples/keyboard_control.cpp\n'}
+[1.938189] (fyp_ws) StderrLine: {'line': b'\n'}
+[1.938263] (fyp_ws) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[1.938351] (fyp_ws) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[1.938427] (fyp_ws) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[1.938498] (fyp_ws) StderrLine: {'line': b'\n'}
+[1.938569] (fyp_ws) StderrLine: {'line': b'\x1b[0m\n'}
+[1.940406] (fyp_ws) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[1.940548] (fyp_ws) StderrLine: {'line': b'  No SOURCES given to target: keyboard_control\n'}
+[1.940630] (fyp_ws) StderrLine: {'line': b'\n'}
+[1.940705] (fyp_ws) StderrLine: {'line': b'\x1b[0m\n'}
+[1.940779] (fyp_ws) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.953650] (fyp_ws) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.955952] (fyp_ws) CommandEnded: {'returncode': 2}
+[1.998472] (fyp_ws) JobEnded: {'identifier': 'fyp_ws', 'rc': 2}
+[2.001902] (-) TimerEvent: {}
+[2.010714] (-) EventReactorShutdown: {}

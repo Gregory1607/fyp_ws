@@ -1,0 +1,44 @@
+[0.048s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws
+[0.068s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.367s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.419s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.725s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.745s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.814s] -- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[1.043s] -- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.058s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.157s] Error parsing '/home/gregory2/fyp_ws/package.xml':
+[4.236s] Traceback (most recent call last):
+[4.237s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.237s]     main()
+[4.237s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.237s]     raise e
+[4.237s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.237s]     package = parse_package_string(
+[4.238s]               ^^^^^^^^^^^^^^^^^^^^^
+[4.238s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[4.238s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[4.238s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/gregory2/fyp_ws/package.xml':
+[4.238s] Error(s):
+[4.239s] - The generic dependency on 'robot_state_publisher' is redundant with: exec_depend
+[4.239s] - The generic dependency on 'xacro' is redundant with: exec_depend
+[4.286s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.286s]   execute_process(/usr/bin/python3
+[4.286s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.286s]   /home/gregory2/fyp_ws/package.xml
+[4.287s]   /home/gregory2/fyp_ws/build/fyp_ws/ament_cmake_core/package.cmake) returned
+[4.287s]   error code 1
+[4.287s] Call Stack (most recent call first):
+[4.287s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.287s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.287s]   CMakeLists.txt:48 (ament_lint_auto_find_test_dependencies)
+[4.288s] 
+[4.288s] [0m
+[4.288s] -- Configuring incomplete, errors occurred!
+[4.297s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws

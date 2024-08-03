@@ -1,0 +1,8 @@
+source;share/fyp_ws/hook/cmake_prefix_path.ps1
+source;share/fyp_ws/hook/cmake_prefix_path.dsv
+source;share/fyp_ws/hook/cmake_prefix_path.sh
+source;share/fyp_ws/local_setup.bash
+source;share/fyp_ws/local_setup.dsv
+source;share/fyp_ws/local_setup.ps1
+source;share/fyp_ws/local_setup.sh
+source;share/fyp_ws/local_setup.zsh

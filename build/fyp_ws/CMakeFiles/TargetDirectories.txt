@@ -1,0 +1,10 @@
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/uninstall.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/fyp_ws_uninstall.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/keyboard_control.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/test.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/edit_cache.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/rebuild_cache.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/list_install_components.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/install.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/install/local.dir
+/home/gregory2/fyp_ws/build/fyp_ws/CMakeFiles/install/strip.dir

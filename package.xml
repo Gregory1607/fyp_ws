@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>fyp_ws</name>
+  <version>2.0.0</version>
+  <description>Final Year Project Workspace</description>
+
+  <maintainer email="gregoryarlanda95@gmail.com">Gregory Arlanda</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>rclcpp_action</depend>
+  <depend>gz_sim_vendor</depend>
+  <depend>ros_gz_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <depend>ros_gz_sim</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>effort_controllers</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>gz_ros2_control</exec_depend>
+  <exec_depend>imu_sensor_broadcaster</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros2controlcli</exec_depend>
+  <exec_depend>velocity_controllers</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>image_transport_plugins</exec_depend>
+  <exec_depend>ros_gz_image</exec_depend>
+  <exec_depend>rqt_image_view</exec_depend>
+  <exec_depend>rqt_plot</exec_depend>
+  <exec_depend>rqt_topic</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>sdformat_urdf</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

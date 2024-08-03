@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws
+[0.036s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.306s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.360s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.397s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.413s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.701s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.721s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.741s] -- Found control_msgs: 5.2.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.898s] -- Found rclcpp_action: 28.1.3 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.916s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.253s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.298s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.299s] -- Configured cppcheck include dirs: /home/gregory2/fyp_ws/include
+[1.299s] -- Configured cppcheck exclude dirs and/or files: 
+[1.388s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.388s] -- Configured cpplint exclude dirs and/or files: 
+[1.420s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.420s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.456s] -- Added test 'lint_cmake' to check CMake code style
+[1.470s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.493s] -- Added test 'uncrustify' to check C / C++ code style
+[1.493s] -- Configured uncrustify additional arguments: 
+[1.507s] -- Added test 'xmllint' to check XML markup files
+[1.528s] -- Configuring done (1.5s)
+[1.577s] -- Generating done (0.0s)
+[1.579s] -- Build files have been written to: /home/gregory2/fyp_ws/build/fyp_ws
+[1.589s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws
+[1.590s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[1.664s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/src/examples/example_diff_drive.cpp.o[0m
+[12.683s] [100%] [32m[1mLinking CXX executable example_diff_drive[0m
+[14.052s] [100%] Built target example_diff_drive
+[14.066s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gregory2/fyp_ws/build/fyp_ws -- -j4 -l4
+[14.114s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws
+[14.125s] -- Install configuration: ""
+[14.125s] -- Execute custom install script
+[14.126s] -- Symlinking: /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/example_diff_drive
+[14.138s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[14.138s]   ament_cmake_symlink_install_directory() can't find
+[14.139s]   '/home/gregory2/fyp_ws/launch'
+[14.139s] Call Stack (most recent call first):
+[14.139s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[14.139s]   cmake_install.cmake:46 (include)
+[14.139s] 
+[14.139s] [0m
+[14.141s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gregory2/fyp_ws/build/fyp_ws

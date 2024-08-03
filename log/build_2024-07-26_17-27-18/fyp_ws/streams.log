@@ -1,0 +1,63 @@
+[0.018s] Invoking command in '/home/gregory2/fyp_ws/build/fyp_ws': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws
+[2.619s] -- The C compiler identification is GNU 13.2.0
+[4.662s] -- The CXX compiler identification is GNU 13.2.0
+[4.742s] -- Detecting C compiler ABI info
+[5.154s] -- Detecting C compiler ABI info - done
+[5.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.167s] -- Detecting C compile features
+[5.188s] -- Detecting C compile features - done
+[5.226s] -- Detecting CXX compiler ABI info
+[5.410s] -- Detecting CXX compiler ABI info - done
+[5.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.426s] -- Detecting CXX compile features
+[5.427s] -- Detecting CXX compile features - done
+[5.510s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.739s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.000s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.145s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.175s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.494s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.500s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.982s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.008s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.173s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.194s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[7.218s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[7.304s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.343s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[7.352s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[7.552s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[7.611s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[7.617s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.714s] Error parsing '/home/gregory2/fyp_ws/package.xml':
+[10.623s] Traceback (most recent call last):
+[10.624s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[10.624s]     main()
+[10.624s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[10.624s]     raise e
+[10.624s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[10.625s]     package = parse_package_string(
+[10.625s]               ^^^^^^^^^^^^^^^^^^^^^
+[10.625s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[10.625s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[10.625s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/gregory2/fyp_ws/package.xml':
+[10.625s] Error(s):
+[10.626s] - The generic dependency on 'robot_state_publisher' is redundant with: exec_depend
+[10.626s] - The generic dependency on 'xacro' is redundant with: exec_depend
+[10.674s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[10.674s]   execute_process(/usr/bin/python3
+[10.674s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[10.674s]   /home/gregory2/fyp_ws/package.xml
+[10.675s]   /home/gregory2/fyp_ws/build/fyp_ws/ament_cmake_core/package.cmake) returned
+[10.675s]   error code 1
+[10.675s] Call Stack (most recent call first):
+[10.675s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[10.675s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[10.675s]   CMakeLists.txt:61 (ament_lint_auto_find_test_dependencies)
+[10.675s] 
+[10.675s] [0m
+[10.675s] -- Configuring incomplete, errors occurred!
+[10.693s] Invoked command in '/home/gregory2/fyp_ws/build/fyp_ws' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gregory2/fyp_ws -DCMAKE_INSTALL_PREFIX=/home/gregory2/fyp_ws/install/fyp_ws
