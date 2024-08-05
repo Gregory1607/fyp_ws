@@ -1,9 +1,11 @@
 /home/gregory2/fyp_ws/install/fyp_ws/lib/fyp_ws/keyboard_control
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/dodobot.launch.py
+/home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//launch/dodobot_outdoor.launch.py
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/bridge_config.yaml
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//config/controller.yaml
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//urdf/dodobot.urdf.xacro
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//worlds/my_world.sdf
+/home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//worlds/outdoor.sdf
 /home/gregory2/fyp_ws/install/fyp_ws/share/fyp_ws//rviz/robot_lidar.rviz
 /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/package_run_dependencies/fyp_ws
 /home/gregory2/fyp_ws/install/fyp_ws/share/ament_index/resource_index/parent_prefix_path/fyp_ws
